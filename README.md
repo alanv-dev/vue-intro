@@ -1,11 +1,11 @@
-# Vue intro
+# Vue Intro
 
 http://localhost:8080/
 
 ## Project setup
 
 ```
-npm install
+docker-compose up -d --build
 ```
 
 ### Compiles and hot-reloads for development
@@ -31,7 +31,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
