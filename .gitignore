@@ -1,0 +1,15 @@
+.DS_Store
+src/node_modules
+src/dist
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+src/npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
