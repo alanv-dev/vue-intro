@@ -4,12 +4,8 @@ services:
     container_name: vue-intro
     build: .
     restart: unless-stopped
-    working_dir: "/srv"
     tty: true
     volumes:
       - ./src:/srv:rw
     ports:
-      - 3000:3000
-      - 8000:8000
-      - 8080:8080
-      - 9229:9229
+      - ${SERVE_PORT-8080}:8080
