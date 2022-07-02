@@ -4,8 +4,6 @@ src/dist
 
 # local env files
 .env
-.env.local
-.env.*.local
 
 # Log files
 src/npm-debug.log*
